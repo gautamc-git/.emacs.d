@@ -1,0 +1,121 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/gautam/Desktop/CS3500/" . "labvm/")
+ ("/home/gautam/.emacs.d/" . "auto-save-list/")
+ ("/home/gautam/Desktop/CS3500/schedule/" . "lab6_fourth/")
+ ("/home/gautam/Desktop/CS3300/CS17B047/" . "P2/")
+ ("/home/gautam/" . "Desktop/")
+ ("/home/" . "gautam/")
+ ("/home/gautam/Desktop/CS3300/CS17B047/P2/" . "visitor/")
+ ("/home/gautam/Desktop/CS3300/Public/" . "Tests/")
+ ("/home/gautam/Desktop/CS3300/" . "CS17B047/")
+ ("/home/gautam/Desktop/CS17B047/Assign2/" . "visitor/")
+ ("/home/gautam/Desktop/CS17B047/" . "Assign2/")
+ ("/home/gautam/Desktop/" . "CS3500/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/gautam/Desktop/CS3500/labvm/"
+ "/home/gautam/Desktop/CS3300/CS17B047/P2/visitor/"
+ "/home/gautam/Desktop/CS3300/CS17B047/P2/"
+ "/home/gautam/"
+ "/home/gautam/Desktop/"
+ "/home/gautam/.emacs.d/"
+ "/home/gautam/.emacs.d/auto-save-list/"
+ "/home/gautam/Desktop/CS3500/schedule/lab6_fourth/"
+ "/home/gautam/Desktop/CS3500/schedule/lab6_fifth/"
+ "/home/gautam/Desktop/CS3500/schedule/lab6_third/"
+ "/home/gautam/Desktop/CS3500/schedule/lab6_second/"
+ "/home/gautam/Desktop/CS3500/schedule/lab6_first/"
+ "/home/gautam/Desktop/CS3300/tests/"
+ "/home/gautam/Desktop/CS3300/P2/"
+ "/home/gautam/Desktop/CS3300/Public/Tests/"
+ "/home/gautam/Desktop/CS3300/"
+ "/home/gautam/Desktop/CS3300/visitor/"
+ "/home/gautam/Desktop/CS17B047/Assign2/visitor/"
+ "/"
+ "/home/gautam/Desktop/test/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "one.c"
+ "1.c"
+ "type.java"
+ "P2.java"
+ ".emacs"
+ "temp.c"
+ "config.org"
+ "config_copy.org"
+ "configtemp.org"
+ "config.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/gautam/.emacs.d/auto-save-list/" (23939 44030 31253 267000) ".saves-2251-gautam-XPS-15-9560~" ".saves-19357-gautam-XPS-15-9560~" ".saves-5751-gautam-XPS-15-9560~" ".saves-5015-gautam-XPS-15-9560~" ".saves-18572-gautam-XPS-15-9560~" ".saves-2919-gautam-XPS-15-9560~" ".saves-4091-gautam-XPS-15-9560~" "./" ".saves-2457-gautam-XPS-15-9560~" ".saves-3835-gautam-XPS-15-9560~" ".saves-3799-gautam-XPS-15-9560~" "../" ".saves-2238-gautam-XPS-15-9560~")
+
+ ("/home/gautam/.emacs.d/" (23939 44030 19253 929000) "session.10631ec7e41d5013e8156710105394918300000015930075" "session.10cfd017a9b9f0a44e156787215777302700000016300072" "recentf~" "config_copy.org~" "auto-save-list/" "config.el" "session.102725dfc9fd4a5bf3156811094916449400000015790071" "ido.last" "session.10c1a1e59cf12d235156758870253744900000013680074" "themes/" "session.10427f34474c2c81db156795296351754600000014300101" "config.org~" "config_copy.org" "url/" "session.10430d8412bbe0019c156787013475493400000014470081" "session.10685293ad4f816e34156829244181016700000014180069" "session.10dab61de2e219523b15682184833081300000027690076" "session.1024938bc291939ef9156812132341359500000015080069" "eshell/" "config.org" "smex-items" "session.1010b7af2dd2f5df13156887624223456300000017540069" "session.10dab61de2e219523b156821755758395100000027690069" "session.10a621951d9b48b5f4156827465323827600000014290068" "transient/" "./" "elpa/" "ido.last~" "configtemp.org" "session.108786f5323640b035156718290616938200000016790076" "tramp" "recentf" "../" "session.1070603a2f562893e7156834238784335000000015920068" "tutorial/" "session.10a19e9ca3ea456dff156826656165488800000016770068" "#ido.last#" "games/")
+
+ ("/home/gautam/Desktop/CS3500/labvm/" (23939 44081 784551 263000) "./" "../")
+
+ ("/home/gautam/Desktop/CS3500/" (23939 27342 258032 58000) "lab5/" "ipc/" "CS17B047/" "lab4_tut/" "zombie_orphan/" "process/" "./" "labvm/" "../" "CS17B047.tar.xz")
+
+ ("/home/gautam/Desktop/" (23939 43028 94716 20000) "emacs_test/" "temp.c~" "CS17B047/" "evaluate.sh" "temp.c" "emacs_packages/" "codeforces/" "emacs_tutorials/" "./" "CS3500/" "temp" "test/" "../" "CS3300/")
+
+ ("/home/gautam/" (23939 43130 282135 650000) "emacs_tutorial/" ".swt/" ".ipython/" "hello.txt" "#helloworld#" "*Messages*~" ".nv/" "eclipse/" ".ICEauthority" "Documents/" "examples.desktop" ".sudo_as_admin_successful" "cs3100_f19/" ".emacs" "emacs-config/" "google-chrome-stable_current_amd64.deb" "snap/" "init.el" "PRML/" "javacc-5.0/" ".gnupg/" "out.txt" ".bash_history" "temp.c" ".mozilla/" ".newsrc-dribble" ".gitconfig" "test.org~" ".pki/" "Templates/" ".bash_logout" ".tooling/" "TUTORIAL~" "Pictures/" "eclim_2.8.0.bin" ".bashrc~" ".ssh/" "*Messages*" "Videos/" ".thunderbird/" "emacs_config/" ".dbus/" ".p2/" "News/" "Downloads/" "eclipse-workspace/" ".emacs.d/" "emacs_config.tar.xz" "TUTORIAL" ".bashrc" "./" "Public/" ".emacs~" ".config/" ".eclipse/" "temp" "output.svg" "Desktop/" ".cache/" "Music/" "firstgit/" ".lesshst" ".local/" "wc" "../" "test.org" ".profile" ".git/")
+
+ ("/home/gautam/Desktop/CS3300/" (23935 11070 303999 278000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "CS17B047/" "jtb.out.jj" "MiniJavaParserTokenManager.class" "Main.class" "evaluate.sh" "MiniJavaParser.java" "JTBToolkit.class" "assignment1/" "ParseException.class" "minijava.jj" "ChecklistP2.txt" "Main.java" "./" "Token.java" "MiniJavaParser.class" "Public/" "CS17B047.P2  (copy).tar.gz" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "CS17B047.P2.tar.gz" "ParseException.java" "../" "tests/" "TokenMgrError.java" "visitor/" "JavaCharStream.class" ".git/")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/P2/visitor/" (23934 26395 560387 64000) "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguVisitor.java" "type.class" "GJVoidVisitor.java" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "#labScope2.java#" "Visitor.java" "type.java" "DepthFirstVisitor.java" "./" "GJDepthFirst.class" "labScope2.java~" "type.java~" "GJVoidVisitor.class" "Visitor.class" "../" "labScope2.class" "GJNoArguVisitor.class" "labScope2.java" "#GJVisitor.java#")
+
+ ("/home/gautam/emacs-config/" (23934 25453 888912 961000) ".emacs" "config.org" "./" "README.md" "../" ".git/")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/P2/" (23934 22541 63195 572000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "jtb.out.jj" "MiniJavaParserTokenManager.class" "P2.java~" "P2.class" "MiniJavaParser.java" "JTBToolkit.class" "ParseException.class" "minijava.jj" "./" "Token.java" "MiniJavaParser.class" "P2.java" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "ParseException.java" "../" "TokenMgrError.java" "visitor/" "#P2.java#" "JavaCharStream.class")
+
+ ("/home/gautam/Desktop/CS3500/schedule/lab6_fourth/" (23931 6138 970661 966000) "input.txt" "input.txt~" "child.c~" "s.c" "child.c" "schedule.csv" "child" "./" "s.c~" "Makefile" "s" "../")
+
+ ("/home/gautam/Desktop/CS3500/schedule/lab6_fifth/" (23931 5769 661926 280000) "input.txt" "input.txt~" "child.c~" "s.c" "child.c" "schedule.csv" "child" "./" "s.c~" "Makefile" "s" "../")
+
+ ("/home/gautam/Desktop/CS3500/schedule/lab6_third/" (23931 4635 468641 144000) "input.txt" "s.c" "child.c" "./" "Makefile" "../")
+
+ ("/home/gautam/Desktop/CS3500/schedule/" (23931 4601 64351 37000) "lab6_second/" "lab6_fifth/" "lab6_fourth/" "lab6_third/" "./" "lab6_first/" "../")
+
+ ("/home/gautam/Desktop/CS3500/schedule/lab6_second/" (23930 25094 765165 712000) "input.txt" "child.c~" "s.c" "child.c" "test.c~" "child" "./" "s.c~" "Makefile" "s" "../")
+
+ ("/home/gautam/Desktop/CS3300/tests/" (23927 45248 581674 187000) "LL.class" "custom_test.java~" "QuickSort.class" "A.class" "Ampersand.class" "Factorial.java" "BS.class" "TreeVisitor.class" "BinaryTree.java" "QuickSort.java" "LS.class" "LinearSearch.class" "LinearSearch.java" "custom_test.java" "BinaryTree.class" "Element.class" "BadExpr.class" "BubbleSort.java" "BinarySearch.java" "MyVisitor.class" "BinarySearch.class" "TreeVisitor.java" "B.class" "Factorial.class" "BubbleSort.class" "./" "QS.class" "Fac.class" "TV.class" "BBS.class" "List.class" "LinkedList.java" "Visitor.class" "../" "Tree.class" "C.class" "LinkedList.class" "BT.class")
+
+ ("/home/gautam/Desktop/CS3500/schedule/lab6_first/" (23930 20965 391 685000) "*shell*" "input.txt" "input.txt~" "child.c~" "s.c" "child.c" "test.c" "test.c~" "child" "./" "test" "s.c~" "Makefile" "s" "../")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/" (23927 31844 409466 846000) "./" "P2/" "../")
+
+ ("/home/gautam/Desktop/CS3300/P2/" (23927 1312 199999 406000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "jtb.out.jj" "MiniJavaParserTokenManager.class" "Main.class" "MiniJavaParser.java" "JTBToolkit.class" "ParseException.class" "minijava.jj" "Main.java" "./" "Token.java" "MiniJavaParser.class" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "ParseException.java" "../" "TokenMgrError.java" "visitor/" "JavaCharStream.class")
+
+ ("/home/gautam/Desktop/CS3300/Public/Tests/" (23926 23405 124385 617000) "Public5.java" "A.class" "Class2.class" "Public7.java" "Class1.class" "TreeVisitor.class" "Public2.java" "Public9.java~" "Public9.java" "Public1.java" "MyVisitor.class" "Public10.java" "Public3.java" "Public6.java" "BubbleSort.class" "./" "TV.class" "Extended.class" "Class3.class" "Public8.java" "Visitor.class" "../" "Tree.class" "Public4.java")
+
+ ("/home/gautam/Desktop/CS3300/visitor/" (23926 23179 475531 550000) "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguVisitor.java" "type.class" "GJVoidVisitor.java" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "#labScope2.java#" "Visitor.java" "type.java" "DepthFirstVisitor.java" "./" "GJDepthFirst.class" "labScope2.java~" "type.java~" "GJVoidVisitor.class" "Visitor.class" "../" "labScope2.class" "GJNoArguVisitor.class" "labScope2.java" "#GJVisitor.java#")
+
+ ("/home/gautam/Desktop/CS3300/Public/" (23926 13982 0 0) "Outputs/" "Tests/" "./" "../")
+
+ ("/home/gautam/Desktop/CS17B047/Assign2/visitor/" (23925 4150 329651 789000) "labScope.class" "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguDepthFirst.class" "GJNoArguVisitor.java" "GJVoidVisitor.java" "DepthFirstVisitor.class" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "GJVoidDepthFirst.class" "#labScope2.java#" "Visitor.java" "DepthFirstVisitor.java" "./" "GJDepthFirst.class" "GJVoidVisitor.class" "labScope.java" "Visitor.class" "../" "labScope2.class" "GJNoArguVisitor.class" "labScope2.java")
+
+ ("/home/gautam/Desktop/CS17B047/Assign2/" (23925 3545 639747 485000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "jtb.out.jj" "MiniJavaParserTokenManager.class" "Main.class" "LinearSearch.java" "MiniJavaParser.java" "JTBToolkit.class" "ParseException.class" "minijava.jj" ".project" "Main.java" ".classpath" "miniJava/" "./" "Token.java" "MiniJavaParser.class" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "ParseException.java" "../" "TokenMgrError.java" "visitor/" "JavaCharStream.class")
+
+ ("/home/gautam/Desktop/CS17B047/" (23925 2372 740570 616000) "./" "Assign2/" "../")
+
+ ("/home/gautam/Desktop/CS3500/ipc/" (23925 1147 239892 705000) "sig_1.c" "fork_pipe_wait.c~" "shm_1.c" "sig_1" "fork_pipe.c" "fork_pipe_2" "fork_pipe_wait" "fork_pipe_wait.c" "fork_pipe" "fork_pipe_3.c" "shm_2_a.c" "./" "fork_pipe_2.c" "shm_2_a" "fork_pipe_3" "Makefile" "shm_1" "shm_2_b.c" "../" "sig_2b.c" ".#fork_pipe.c" "shm_2_b" "sig_2" "sig_2.c" "sig_2b")
+
+ ("/home/gautam/Desktop/test/" (23923 51598 669961 413000) "./" "a.cpp~" "a.cpp" "../")
+
+ ("/home/gautam/Desktop/codeforces/" (23921 55119 803996 447000) "./" "a.cpp~" "a.out" "a.cpp" "../")
+
+ ("/home/gautam/Desktop/emacs_test/" (23923 52366 355419 363000) "a.org~" "a.c" "a.c~" "./" "a" "#a.org#" "a.org" "../")
+
+ ("/home/" (23893 18540 413212 88000) "gautam/" "./" "lost+found/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

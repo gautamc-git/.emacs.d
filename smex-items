@@ -1,0 +1,25 @@
+
+;; ----- smex-history -----
+(
+ toggle-read-only
+ compile
+ magit-status
+ comment-region
+ recover-session
+ customize-themes
+ package-install
+)
+
+;; ----- smex-data -----
+(
+ (package-refresh-contents . 1)
+ (list-packages . 3)
+ (package-install . 3)
+ (customize-themes . 2)
+ (comment-region . 13)
+ (recover-session . 1)
+ (magit . 3)
+ (magit-status . 2)
+ (compile . 1)
+ (toggle-read-only . 1)
+)

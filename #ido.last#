@@ -1,0 +1,89 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/gautam/Desktop/CS3300/CS17B047/" . "P2/")
+ ("/home/gautam/" . "Desktop/")
+ ("/home/" . "gautam/")
+ ("/home/gautam/Desktop/CS3300/CS17B047/P2/" . "visitor/")
+ ("/home/gautam/Desktop/CS3300/Public/" . "Tests/")
+ ("/home/gautam/Desktop/CS3300/" . "CS17B047/")
+ ("/home/gautam/Desktop/CS17B047/Assign2/" . "visitor/")
+ ("/home/gautam/Desktop/CS17B047/" . "Assign2/")
+ ("/home/gautam/Desktop/" . "CS3300/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/gautam/"
+ "/home/gautam/Desktop/CS3300/CS17B047/P2/visitor/"
+ "/home/gautam/Desktop/CS3300/tests/"
+ "/home/gautam/Desktop/CS3300/CS17B047/P2/"
+ "/home/gautam/Desktop/CS3300/P2/"
+ "/home/gautam/Desktop/CS3300/Public/Tests/"
+ "/home/gautam/Desktop/CS3300/"
+ "/home/gautam/Desktop/CS3300/visitor/"
+ "/home/gautam/Desktop/CS17B047/Assign2/visitor/"
+ "/"
+ "/home/gautam/Desktop/test/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "type.java"
+ "custom_test.java"
+ "P2.java"
+ "Main.java"
+ "Public10.java"
+ "Public9.java"
+ "Public8.java"
+ "Public7.java"
+ "Public6.java"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/gautam/" (23929 6222 7558 58000) ".swt/" "#helloworld#" ".nv/" "eclipse/" ".ICEauthority" "Documents/" "examples.desktop" ".sudo_as_admin_successful" "cs3100_f19/" ".emacs" "google-chrome-stable_current_amd64.deb" "snap/" "javacc-5.0/" ".gnupg/" ".bash_history" ".mozilla/" ".gitconfig" ".pki/" "Templates/" ".bash_logout" ".tooling/" "TUTORIAL~" "Pictures/" "eclim_2.8.0.bin" ".bashrc~" ".ssh/" "Videos/" ".thunderbird/" "emacs_config/" ".p2/" "News/" "Downloads/" "eclipse-workspace/" ".emacs.d/" "emacs_config.tar.xz" "TUTORIAL" ".bashrc" "./" "Public/" ".emacs~" "#.newsrc-dribble#" ".config/" ".eclipse/" "Desktop/" ".cache/" "Music/" "firstgit/" ".lesshst" ".local/" "../" ".profile" ".git/")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/P2/visitor/" (23927 43470 763874 762000) "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguVisitor.java" "type.class" "GJVoidVisitor.java" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "#labScope2.java#" "Visitor.java" "type.java" "DepthFirstVisitor.java" ".#type.java" "./" "GJDepthFirst.class" "labScope2.java~" "type.java~" "GJVoidVisitor.class" "Visitor.class" "../" "labScope2.class" "GJNoArguVisitor.class" "labScope2.java" "#GJVisitor.java#")
+
+ ("/home/gautam/Desktop/CS3300/tests/" (23927 41985 994292 518000) "LL.class" "custom_test.java~" "QuickSort.class" "A.class" "Ampersand.class" "Factorial.java" "BS.class" "TreeVisitor.class" "BinaryTree.java" "QuickSort.java" "LS.class" "LinearSearch.class" "LinearSearch.java" "custom_test.java" "BinaryTree.class" "Element.class" "BadExpr.class" "BubbleSort.java" "BinarySearch.java" "MyVisitor.class" "BinarySearch.class" "TreeVisitor.java" "B.class" "Factorial.class" "BubbleSort.class" "./" "QS.class" "Fac.class" "TV.class" "BBS.class" "List.class" "LinkedList.java" "Visitor.class" "../" "Tree.class" "LinkedList.class" "BT.class")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/P2/" (23927 34133 989507 997000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "jtb.out.jj" "MiniJavaParserTokenManager.class" "P2.java~" "P2.class" "MiniJavaParser.java" "JTBToolkit.class" "ParseException.class" "minijava.jj" "./" "Token.java" "MiniJavaParser.class" "P2.java" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "ParseException.java" "../" "TokenMgrError.java" "visitor/" "#P2.java#" "JavaCharStream.class")
+
+ ("/home/gautam/Desktop/" (23927 30016 483412 316000) "emacs_test/" "CS17B047/" "evaluate.sh" "emacs_packages/" "codeforces/" "emacs_tutorials/" "./" "CS3500/" "test/" "../" "CS3300/")
+
+ ("/home/gautam/Desktop/CS3300/" (23927 34047 565317 475000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "CS17B047/" "jtb.out.jj" "MiniJavaParserTokenManager.class" "Main.class" "evaluate.sh" "MiniJavaParser.java" "JTBToolkit.class" "assignment1/" "ParseException.class" "minijava.jj" "Main.java" "./" "Token.java" "MiniJavaParser.class" "Public/" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "CS17B047.P2.tar.gz" "ParseException.java" "../" "tests/" "TokenMgrError.java" "visitor/" "JavaCharStream.class")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/" (23927 31844 409466 846000) "./" "P2/" "../")
+
+ ("/home/gautam/Desktop/CS3300/P2/" (23927 1312 199999 406000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "jtb.out.jj" "MiniJavaParserTokenManager.class" "Main.class" "MiniJavaParser.java" "JTBToolkit.class" "ParseException.class" "minijava.jj" "Main.java" "./" "Token.java" "MiniJavaParser.class" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "ParseException.java" "../" "TokenMgrError.java" "visitor/" "JavaCharStream.class")
+
+ ("/home/gautam/Desktop/CS3300/Public/Tests/" (23926 23405 124385 617000) "Public5.java" "A.class" "Class2.class" "Public7.java" "Class1.class" "TreeVisitor.class" "Public2.java" "Public9.java~" "Public9.java" "Public1.java" "MyVisitor.class" "Public10.java" "Public3.java" "Public6.java" "BubbleSort.class" "./" "TV.class" "Extended.class" "Class3.class" "Public8.java" "Visitor.class" "../" "Tree.class" "Public4.java")
+
+ ("/home/gautam/Desktop/CS3300/visitor/" (23926 23179 475531 550000) "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguVisitor.java" "type.class" "GJVoidVisitor.java" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "#labScope2.java#" "Visitor.java" "type.java" "DepthFirstVisitor.java" "./" "GJDepthFirst.class" "labScope2.java~" "type.java~" "GJVoidVisitor.class" "Visitor.class" "../" "labScope2.class" "GJNoArguVisitor.class" "labScope2.java" "#GJVisitor.java#")
+
+ ("/home/gautam/Desktop/CS3300/Public/" (23926 13982 0 0) "Outputs/" "Tests/" "./" "../")
+
+ ("/home/gautam/Desktop/CS17B047/Assign2/visitor/" (23925 4150 329651 789000) "labScope.class" "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguDepthFirst.class" "GJNoArguVisitor.java" "GJVoidVisitor.java" "DepthFirstVisitor.class" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "GJVoidDepthFirst.class" "#labScope2.java#" "Visitor.java" "DepthFirstVisitor.java" "./" "GJDepthFirst.class" "GJVoidVisitor.class" "labScope.java" "Visitor.class" "../" "labScope2.class" "GJNoArguVisitor.class" "labScope2.java")
+
+ ("/home/gautam/Desktop/CS17B047/Assign2/" (23925 3545 639747 485000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "jtb.out.jj" "MiniJavaParserTokenManager.class" "Main.class" "LinearSearch.java" "MiniJavaParser.java" "JTBToolkit.class" "ParseException.class" "minijava.jj" ".project" "Main.java" ".classpath" "miniJava/" "./" "Token.java" "MiniJavaParser.class" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "ParseException.java" "../" "TokenMgrError.java" "visitor/" "JavaCharStream.class")
+
+ ("/home/gautam/Desktop/CS17B047/" (23925 2372 740570 616000) "./" "Assign2/" "../")
+
+ ("/home/gautam/Desktop/CS3500/" (23911 48296 988953 290000) "lab5/" "ipc/" "lab4_tut/" "zombie_orphan/" "process/" "./" "../")
+
+ ("/home/gautam/Desktop/CS3500/ipc/" (23925 1147 239892 705000) "sig_1.c" "fork_pipe_wait.c~" "shm_1.c" "sig_1" "fork_pipe.c" "fork_pipe_2" "fork_pipe_wait" "fork_pipe_wait.c" "fork_pipe" "fork_pipe_3.c" "shm_2_a.c" "./" "fork_pipe_2.c" "shm_2_a" "fork_pipe_3" "Makefile" "shm_1" "shm_2_b.c" "../" "sig_2b.c" ".#fork_pipe.c" "shm_2_b" "sig_2" "sig_2.c" "sig_2b")
+
+ ("/home/gautam/Desktop/test/" (23923 51598 669961 413000) "./" "a.cpp~" "a.cpp" "../")
+
+ ("/home/gautam/Desktop/codeforces/" (23921 55119 803996 447000) "./" "a.cpp~" "a.out" "a.cpp" "../")
+
+ ("/home/gautam/Desktop/emacs_test/" (23923 52366 355419 363000) "a.org~" "a.c" "a.c~" "./" "a" "#a.org#" "a.org" "../")
+
+ ("/home/" (23893 18540 413212 88000) "gautam/" "./" "lost+found/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
