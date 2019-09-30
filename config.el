@@ -5,12 +5,22 @@
 
 (setq ring-bell-function 'ignore)
 
+(setq locale-coding-system 'utf-8)
+(set-terminal-coding-system 'utf-8-unix)
+(set-keyboard-coding-system 'utf-8)
+(set-selection-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
-  (package-initialize)
+(package-initialize)
   (tool-bar-mode -1)
   (menu-bar-mode -1)
   (line-number-mode 1)
 (column-number-mode 1)
+ (global-set-key(kbd "M-4") 'display-line-numbers-mode)
+(add-hook 'org-mode-hook 'org-indent-mode)
+
+(use-package popup-kill-ring
+  :ensure t
+  :bind ("M-y" . popup-kill-ring))
 
 (global-subword-mode 1)
 
@@ -28,6 +38,30 @@
 
 (setq display-time-24hr-format t)
 (display-time-mode 1)
+
+(use-package swiper
+  :ensure t
+  :bind ("C-s" . swiper))
+
+(use-package multiple-cursors
+  :ensure t
+  :bind ("C-c q" . 'mc/mark-next-like-this)
+  :bind ("C-c v" . 'mc/skip-to-next-like-this))
+(use-package expand-region
+  :ensure t
+  :bind ("C-q" . er/expand-region))
+
+(use-package exwm
+  :ensure t
+  :config
+  (require 'exwm-config)
+  (exwm-config-default))
+
+(require 'exwm-systemtray)
+(exwm-systemtray-enable)
+
+(global-set-key (kbd "s-k") 'exwm-workspace-delete)
+(global-set-key (kbd "s-w") 'exwm-workspace-swap)
 
 ;; load emacs 24's package system. Add MELPA repository.
 (when (>= emacs-major-version 24)
@@ -186,8 +220,7 @@
 
 (use-package rainbow-mode
   :ensure t
-  :init
-  (rainbow-mode 1))
+  :init (add-hook 'prog-mode-hook 'rainbow-mode))
 
 (use-package rainbow-delimiters
   :ensure t
@@ -196,10 +229,32 @@
 
 (use-package company
   :ensure t
-  :init
-  (add-hook 'after-init-hook 'global-company-mode))
-(setq company-dabbrev-downcase 0)
-(setq company-idle-delay 0)
+  :config
+  (setq company-idle-delay 0)
+  (setq company-minimum-prefix-length 3))
+
+(with-eval-after-load 'company
+  (define-key company-active-map (kbd "M-n") nil)
+  (define-key company-active-map (kbd "M-p") nil)
+  (define-key company-active-map(kbd "C-n") #'company-select-next)
+  (define-key company-active-map(kbd "C-p") #'company-select-previous))
+
+(use-package company-irony
+  :ensure t
+  :config(require 'company)
+  (add-to-list 'company-backends 'company-irony))
+
+(use-package irony
+  :ensure t
+  :config
+  (add-hook 'c++-mode-hook 'irony-mode)
+  (add-hook 'c-mode-hook 'irony-mode)
+  (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+  )
+
+(with-eval-after-load 'company(add-hook 'c++-mode-hook 'company-mode)
+                      (add-hook 'c-mode-hook 'company-mode)
+                      (add-hook 'java-mode-hook 'company-mode))
 
 (use-package spaceline
   :ensure t
@@ -207,6 +262,7 @@
   (require 'spaceline-config)
   (setq powerline-default-separator (quote arrow))
   (spaceline-spacemacs-theme))
+(display-battery-mode)
 
 (use-package diminish
      :ensure
@@ -225,6 +281,7 @@
 (use-package sr-speedbar
   :ensure t)
 (global-set-key (kbd "M-1") 'sr-speedbar-toggle)
+(setq sr-speedbar-right-side nil)
 
 (use-package magit
   :ensure t)

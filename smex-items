@@ -1,25 +1,32 @@
 
 ;; ----- smex-history -----
 (
- toggle-read-only
- compile
- magit-status
- comment-region
- recover-session
- customize-themes
+ browse-url-chrome
+ browse-url-firefox
+ display-battery-mode
+ browse-url-chromium
+ package-refresh-contents
+ shell
  package-install
 )
 
 ;; ----- smex-data -----
 (
- (package-refresh-contents . 1)
- (list-packages . 3)
- (package-install . 3)
+ (package-refresh-contents . 4)
+ (list-packages . 4)
+ (package-install . 4)
  (customize-themes . 2)
- (comment-region . 13)
+ (comment-region . 15)
  (recover-session . 1)
  (magit . 3)
  (magit-status . 2)
  (compile . 1)
  (toggle-read-only . 1)
+ (uncomment-region . 3)
+ (emacs-version . 1)
+ (shell . 1)
+ (browse-url-firefox . 6)
+ (browse-url-chromium . 1)
+ (browse-url-chrome . 2)
+ (display-battery-mode . 1)
 )

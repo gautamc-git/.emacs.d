@@ -2,10 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/usr/lib/llvm-8/" . "lib/")
+ ("/usr/lib/" . "llvm-8/")
+ ("/usr/" . "lib/")
+ ("/" . "usr/")
+ ("/home/gautam/Desktop/CS3300/CS17B047/P3/" . "visitor/")
  ("/home/gautam/Desktop/CS3500/" . "labvm/")
  ("/home/gautam/.emacs.d/" . "auto-save-list/")
  ("/home/gautam/Desktop/CS3500/schedule/" . "lab6_fourth/")
- ("/home/gautam/Desktop/CS3300/CS17B047/" . "P2/")
+ ("/home/gautam/Desktop/CS3300/CS17B047/" . "P3/")
  ("/home/gautam/" . "Desktop/")
  ("/home/" . "gautam/")
  ("/home/gautam/Desktop/CS3300/CS17B047/P2/" . "visitor/")
@@ -13,15 +18,22 @@
  ("/home/gautam/Desktop/CS3300/" . "CS17B047/")
  ("/home/gautam/Desktop/CS17B047/Assign2/" . "visitor/")
  ("/home/gautam/Desktop/CS17B047/" . "Assign2/")
- ("/home/gautam/Desktop/" . "CS3500/")
+ ("/home/gautam/Desktop/" . "CS3300/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/gautam/"
+ "/home/gautam/scratch/"
+ "/home/gautam/Desktop/CS3300/CS17B047/P3/visitor/"
+ "/home/gautam/Desktop/CS3300/CS17B047/P3/"
+ "/home/gautam/Desktop/CS3300/"
+ "/home/gautam/Desktop/CS3300/visitor/"
+ "/home/gautam/Desktop/CS3300/test/"
+ "/home/gautam/PRML/"
  "/home/gautam/Desktop/CS3500/labvm/"
  "/home/gautam/Desktop/CS3300/CS17B047/P2/visitor/"
  "/home/gautam/Desktop/CS3300/CS17B047/P2/"
- "/home/gautam/"
  "/home/gautam/Desktop/"
  "/home/gautam/.emacs.d/"
  "/home/gautam/.emacs.d/auto-save-list/"
@@ -33,8 +45,6 @@
  "/home/gautam/Desktop/CS3300/tests/"
  "/home/gautam/Desktop/CS3300/P2/"
  "/home/gautam/Desktop/CS3300/Public/Tests/"
- "/home/gautam/Desktop/CS3300/"
- "/home/gautam/Desktop/CS3300/visitor/"
  "/home/gautam/Desktop/CS17B047/Assign2/visitor/"
  "/"
  "/home/gautam/Desktop/test/"
@@ -42,33 +52,59 @@
 
 ;; ----- ido-work-file-list -----
 (
- "one.c"
- "1.c"
- "type.java"
- "P2.java"
- ".emacs"
+ "test.cpp"
+ ".#test.c"
  "temp.c"
- "config.org"
- "config_copy.org"
- "configtemp.org"
- "config.el"
+ "test.c"
+ ".emacs"
+ "vis2.java"
+ "P3.java"
+ "P.miniIR"
+ "TreeVisitor.java"
+ "BinarySearch.java"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gautam/.emacs.d/auto-save-list/" (23939 44030 31253 267000) ".saves-2251-gautam-XPS-15-9560~" ".saves-19357-gautam-XPS-15-9560~" ".saves-5751-gautam-XPS-15-9560~" ".saves-5015-gautam-XPS-15-9560~" ".saves-18572-gautam-XPS-15-9560~" ".saves-2919-gautam-XPS-15-9560~" ".saves-4091-gautam-XPS-15-9560~" "./" ".saves-2457-gautam-XPS-15-9560~" ".saves-3835-gautam-XPS-15-9560~" ".saves-3799-gautam-XPS-15-9560~" "../" ".saves-2238-gautam-XPS-15-9560~")
+ ("/home/gautam/.emacs.d/auto-save-list/" (23953 46352 530639 476000) ".saves-2195-gautam-XPS-15-9560~" ".saves-3855-gautam-XPS-15-9560~" ".saves-2251-gautam-XPS-15-9560~" ".saves-3025-gautam-XPS-15-9560~" ".saves-5264-gautam-XPS-15-9560~" ".saves-19357-gautam-XPS-15-9560~" ".saves-8401-gautam-XPS-15-9560~" ".saves-5751-gautam-XPS-15-9560~" ".saves-5015-gautam-XPS-15-9560~" ".saves-2363-gautam-XPS-15-9560~" ".saves-4116-gautam-XPS-15-9560~" ".saves-6136-gautam-XPS-15-9560~" ".saves-3822-gautam-XPS-15-9560~" ".saves-6185-gautam-XPS-15-9560~" ".saves-2279-gautam-XPS-15-9560~" ".saves-18572-gautam-XPS-15-9560~" ".saves-2919-gautam-XPS-15-9560~" ".saves-8093-gautam-XPS-15-9560~" ".saves-4827-gautam-XPS-15-9560~" ".saves-2503-gautam-XPS-15-9560~" ".saves-4091-gautam-XPS-15-9560~" ".saves-2395-gautam-XPS-15-9560~" "./" ".saves-2196-gautam-XPS-15-9560~" ".saves-2457-gautam-XPS-15-9560~" ".saves-5178-gautam-XPS-15-9560~" ".saves-3835-gautam-XPS-15-9560~" ".saves-13016-gautam-XPS-15-9560~" ".saves-2490-gautam-XPS-15-9560~" ".saves-3799-gautam-XPS-15-9560~" "../" ".saves-2226-gautam-XPS-15-9560~" ".saves-2238-gautam-XPS-15-9560~" ".saves-2352-gautam-XPS-15-9560~")
 
- ("/home/gautam/.emacs.d/" (23939 44030 19253 929000) "session.10631ec7e41d5013e8156710105394918300000015930075" "session.10cfd017a9b9f0a44e156787215777302700000016300072" "recentf~" "config_copy.org~" "auto-save-list/" "config.el" "session.102725dfc9fd4a5bf3156811094916449400000015790071" "ido.last" "session.10c1a1e59cf12d235156758870253744900000013680074" "themes/" "session.10427f34474c2c81db156795296351754600000014300101" "config.org~" "config_copy.org" "url/" "session.10430d8412bbe0019c156787013475493400000014470081" "session.10685293ad4f816e34156829244181016700000014180069" "session.10dab61de2e219523b15682184833081300000027690076" "session.1024938bc291939ef9156812132341359500000015080069" "eshell/" "config.org" "smex-items" "session.1010b7af2dd2f5df13156887624223456300000017540069" "session.10dab61de2e219523b156821755758395100000027690069" "session.10a621951d9b48b5f4156827465323827600000014290068" "transient/" "./" "elpa/" "ido.last~" "configtemp.org" "session.108786f5323640b035156718290616938200000016790076" "tramp" "recentf" "../" "session.1070603a2f562893e7156834238784335000000015920068" "tutorial/" "session.10a19e9ca3ea456dff156826656165488800000016770068" "#ido.last#" "games/")
+ ("/home/gautam/" (23953 49293 591984 366000) "emacs_tutorial/" ".swt/" ".ipython/" "hello.txt" "temp.c~" "#helloworld#" "*Messages*~" ".nv/" "eclipse/" ".ICEauthority" "Documents/" "examples.desktop" ".sudo_as_admin_successful" "cs3100_f19/" ".emacs" "emacs-config/" "google-chrome-stable_current_amd64.deb" "snap/" "init.el" "PRML/" "javacc-5.0/" ".gnupg/" "out.txt" ".bash_history" ".Xauthority" ".xsession-errors" "temp.c" ".mozilla/" ".newsrc-dribble" ".gitconfig" "test.org~" ".fctsslvpnhistory" ".pki/" ".#test.cpp" "Templates/" ".bash_logout" ".tooling/" "TUTORIAL~" "Pictures/" "eclim_2.8.0.bin" ".bashrc~" ".ssh/" "*Messages*" "Videos/" ".thunderbird/" "emacs_config/" ".dbus/" ".p2/" "News/" "Downloads/" "eclipse-workspace/" "miniconda3/" ".emacs.d/" ".kde/" "emacs_config.tar.xz" "TUTORIAL" ".bashrc" "./" "Public/" ".emacs~" ".config/" ".eclipse/" "output.svg" "Desktop/" ".cache/" "Music/" "firstgit/" ".jupyter/" ".lesshst" ".gtkrc-2.0" ".condarc" "a.out" ".local/" "wc" "../" "test.org" ".profile" ".git/")
 
- ("/home/gautam/Desktop/CS3500/labvm/" (23939 44081 784551 263000) "./" "../")
+ ("/usr/lib/llvm-8/lib/" (23953 48063 711977 634000) "libLLVMPasses.a" "libLLVMLanaiAsmParser.a" "libLLVMARMCodeGen.a" "libLLVMIRReader.a" "libLLVMAVRCodeGen.a" "libLLVMMCParser.a" "libLLVMDebugInfoPDB.a" "libomp.so.5" "libLLVMipo.a" "libLLVMOption.a" "libLLVMObjCARCOpts.a" "clang/" "libLLVMMSP430Info.a" "libLLVMSelectionDAG.a" "libLLVMDebugInfoCodeView.a" "libLLVMARMInfo.a" "libLLVMSymbolize.a" "libLLVMWebAssemblyInfo.a" "libLLVMPowerPCCodeGen.a" "libgomp.so" "libLLVMMIRParser.a" "cmake/" "libLLVMPowerPCAsmPrinter.a" "libomp.so" "libLLVMLanaiInfo.a" "libLLVMLanaiDesc.a" "libLLVMXCoreCodeGen.a" "libLLVMDemangle.a" "libLLVMNVPTXAsmPrinter.a" "libLLVMInstCombine.a" "libLLVMLinker.a" "libLLVMXCoreDesc.a" "libLLVMSparcAsmParser.a" "libLLVMMipsInfo.a" "libLLVMInterpreter.a" "libLLVMMSP430AsmPrinter.a" "libLLVMCore.a" "libLLVMARMAsmParser.a" "libLLVMCoroutines.a" "libLLVMNVPTXInfo.a" "libLLVMNVPTXCodeGen.a" "libLLVMOptRemarks.a" "libLLVMBPFDesc.a" "libLLVMARMDesc.a" "libLLVMAMDGPUDesc.a" "libLLVMSystemZInfo.a" "libLLVMWindowsManifest.a" "libLLVMAggressiveInstCombine.a" "libLLVMARMAsmPrinter.a" "libLLVMAArch64Info.a" "libLLVMHexagonDesc.a" "libLTO.so.8" "libLLVMX86Desc.a" "libLLVMAVRDesc.a" "libLLVMTransformUtils.a" "libLLVM-8.so.1" "libLLVMRuntimeDyld.a" "libLLVMSystemZAsmParser.a" "libLLVMAVRAsmPrinter.a" "libLLVMOrcJIT.a" "libLLVMCodeGen.a" "libLLVMSparcAsmPrinter.a" "libLLVMMCA.a" "libLLVMHexagonCodeGen.a" "libLLVMLTO.a" "libLLVMSystemZAsmPrinter.a" "libLTO.so" "libLLVMMCJIT.a" "libLLVMMipsDesc.a" "libLLVMBinaryFormat.a" "libLLVMScalarOpts.a" "libLLVMAMDGPUDisassembler.a" "libLLVM-8.0.0.so.1" "libLLVMLanaiCodeGen.a" "libLLVMAArch64Utils.a" "libLLVM.so" "libLLVMSparcInfo.a" "libLLVMBPFAsmParser.a" "libLLVMAVRInfo.a" "libLLVMAMDGPUAsmParser.a" "libLLVMX86Utils.a" "libLLVMAMDGPUAsmPrinter.a" "libLLVMXCoreInfo.a" "libLLVMPerfJITEvents.a" "libLLVMSparcCodeGen.a" "libLLVMLibDriver.a" "libLLVMExecutionEngine.a" "libLLVMTextAPI.a" "libLLVMPowerPCDesc.a" "libLLVMAArch64CodeGen.a" "libLLVMWebAssemblyDisassembler.a" "libLLVMMSP430Disassembler.a" "libLLVMBPFDisassembler.a" "libLLVMAArch64AsmParser.a" "libLLVMAsmParser.a" "libLLVMBPFInfo.a" "libLLVMX86AsmPrinter.a" "libLLVMX86AsmParser.a" "libLLVMHexagonInfo.a" "libLLVMMipsAsmPrinter.a" "libLLVMDebugInfoDWARF.a" "libLLVMX86Info.a" "libLLVMInstrumentation.a" "libLLVMMCDisassembler.a" "libLLVMAMDGPUCodeGen.a" "libLLVMBitReader.a" "libLLVMMSP430CodeGen.a" "libclang.so.1" "libLLVMPowerPCDisassembler.a" "libLLVMX86CodeGen.a" "libLLVMXCoreAsmPrinter.a" "libLLVMLineEditor.a" "libLLVMX86Disassembler.a" "libLLVMSystemZDisassembler.a" "libLLVMAArch64AsmPrinter.a" "libLLVMWebAssemblyDesc.a" "libLLVMAMDGPUInfo.a" "libclang-8.so.1" "libLLVMBitWriter.a" "libLLVMAnalysis.a" "libLLVMPowerPCInfo.a" "libLLVMSparcDisassembler.a" "libLLVMAVRAsmParser.a" "libLLVMBPFAsmPrinter.a" "libLLVMSystemZDesc.a" "libLLVMAArch64Disassembler.a" "libLLVMDlltoolDriver.a" "libLLVMPowerPCAsmParser.a" "libLLVMNVPTXDesc.a" "libLLVMSystemZCodeGen.a" "libiomp5.so" "libLLVM-8.0.0.so" "libLLVMGlobalISel.a" "libLLVMARMDisassembler.a" "LLVMgold.so" "libLLVMMipsCodeGen.a" "LLVMPolly.so" "libomp-8.so.5" "libLLVMMipsAsmParser.a" "libLLVMXCoreDisassembler.a" "libLLVMHexagonAsmParser.a" "libLLVMXRay.a" "libLLVMCoverage.a" "libLLVMARMUtils.a" "libLLVMTableGen.a" "libOptRemarks.so.8" "libomptarget.so" "libLLVMProfileData.a" "libLLVMMC.a" "libLLVMVectorize.a" "libLLVMFuzzMutate.a" "libLLVMLanaiAsmPrinter.a" "libLLVMMSP430Desc.a" "libLLVMObject.a" "libLLVMLanaiDisassembler.a" "libLLVMAVRDisassembler.a" "libLLVMSparcDesc.a" "libLLVMWebAssemblyCodeGen.a" "libLLVMTarget.a" "libLLVMAsmPrinter.a" "libLLVMSupport.a" "libLLVMHexagonDisassembler.a" "libLLVMWebAssemblyAsmPrinter.a" "libLLVMDebugInfoMSF.a" "libLLVMMSP430AsmParser.a" "libLLVMAArch64Desc.a" "libLLVMMipsDisassembler.a" "libLLVMBPFCodeGen.a" "libLLVMWebAssemblyAsmParser.a" "libOptRemarks.so" "libLLVM-8.so" "libLLVMAMDGPUUtils.a" "libLLVMObjectYAML.a" "../" "./")
+
+ ("/usr/lib/llvm-8/" (23953 48063 711977 634000) "lib/" "cmake/" "bin/" "./" "build/" "include/" "share/" "../")
+
+ ("/usr/lib/" (23953 48234 192872 682000) "vino/" "x86_64-linux-gnu/" "ubuntu-fan/" "initramfs-tools/" "pulse-12.2/" "libnvidia-gtk2.so.418.56" "unity-settings-daemon/" "clang/" "compat-ld/" "terminfo/" "syslinux-legacy/" "libpanel-applet.so.3.0.0" "qt5/" "os-release" "ruby/" "ibus/" "thunderbird/" "binfmt.d/" "cmake/" "snapd/" "linux-boot-probes/" "shotwell/" "brltty/" "SYSLINUX/" "ufw/" "tcltk/" "netplan/" "syslinux/" "libhardsid-builder.so.0" "apparmor/" "evolution-data-server/" "gnupg2/" "apg/" "gnome-disk-utility/" "groff/" "update-notifier/" "man-db/" "X11/" "encfs/" "indicators3/" "pkg-config.multiarch" "llvm-8/" "libgnustep-base.so.1.26" "ubuntu-release-upgrader/" "aspell/" "nvidia/" "libfreecell-solver.so.0.6.0" "klibc/" "firmware/" "libchm.so.1.0.0" "eject/" "emacsen-common/" "pm-utils/" "system-service/" "libresid-builder.so.0.0.1" "gnome-settings-daemon-3.0/" "os-prober/" "libepub.so.0" "nodejs/" "ubiquity/" "libkolabxml.so.1" "gst-install-plugins-helper" "mutter/" "firefox/" "p7zip/" "libBLT.2.5.so.8.6" "ubuntu-advantage/" "evince/" "apt/" "geoclue/" "cantata/" "environment.d/" "i386-linux-gnu/" "gnome-initial-setup/" "cnf-update-db" "gdm3/" "bfd-plugins/" "grub/" "linux/" "dconf/" "at-spi2-core/" "cryptsetup/" "libresid-builder.so.0" "dpkg/" "python3/" "libgjs.so.0.0.0" "dbus-1.0/" "NetworkManager/" "cups/" "GNUstep/" "systemd/" "libadplug-2.2.1.so.0" "accountsservice/" "upower/" "networkd-dispatcher/" "python2.7/" "gcc/" "libchm.so.1" "cpp" "bridge-utils/" "crda/" "libqmi/" "libpanel-applet.so.3" "ghostscript/" "bolt/" "tmpfiles.d/" "python3.6/" "blt2.5/" "packagekit/" "pcmciautils/" "mozilla/" "libgnustep-base.so.1.26.0" "emacs/" "tracker/" "ispell/" "libadplug-2.2.1.so.0.0.0" "sudo/" "libBLTlite.2.5.so.8.6" "mime/" "lp_solve/" "language-selector/" "libkolabxml.so.1.1.6" "lightdm/" "colord/" "ld-linux.so.2" "memtest86+/" "fwupd/" "sasl2/" "pkgconfig/" "gvfs/" "gettext/" "init/" "ifupdown/" "sysusers.d/" "libhardsid-builder.so.0.0.1" "gjs/" "bluetooth/" "libsidplay2.so.1" "valgrind/" "gnome-settings-daemon/" "os-probes/" "debug/" "modprobe.d/" "modules/" "dkms/" "binfmt-support/" "gnupg/" "udev/" "rhythmbox/" "git-core/" "gcr/" "libfreecell-solver.so.0" "console-setup/" "command-not-found" "deja-dup/" "grub-legacy/" "libmbim/" "hdparm/" "linux-sound-base/" "gnome-online-accounts/" "fprintd/" "gold-ld/" "speech-dispatcher-modules/" "python3.7/" "openssh/" "xorg/" "libsidplay2.so.1.0.1" "kernel/" "thunderbird-addons/" "tc/" "file/" "klibc-ae-2A4n9ZnfImcw9WIt7dF-3OvQ.so" "locale/" "xserver-xorg-video-intel/" "shim/" "libnvidia-gtk3.so.418.56" "libreoffice/" "avahi/" "gnome-control-center/" "unity-settings-daemon-1.0/" "rsyslog/" "python3.8/" "sysctl.d/" "udisks2/" "kauth/" "pppd/" "gnome-session/" "llvm-6.0/" "lsb/" "modules-load.d/" "geoclue-2.0/" "girepository-1.0/" "libgjs.so.0" "gnome-shell/" "firefox-addons/" "policykit-1/" "jvm/" "recovery-mode/" "software-properties/" "libepub.so.0.2.1" "ssl/" "gnome-terminal/" "../" "./")
+
+ ("/usr/" (23734 9831 0 0) "libexec/" "lib/" "libx32/" "bin/" "./" "local/" "lib32/" "games/" "sbin/" "include/" "share/" "src/" "../" "lib64/")
+
+ ("/tmp/" (23953 50298 733195 737000) "systemd-private-04d6c866a6f5418ead42501475abff1b-fwupd.service-NAVcYF/" "systemd-private-04d6c866a6f5418ead42501475abff1b-haveged.service-yZBVzp/" ".ICE-unix/" ".font-unix/" "systemd-private-04d6c866a6f5418ead42501475abff1b-systemd-resolved.service-iT67OE/" "./" ".X11-unix/" "babel-VdjrHJ/" "systemd-private-04d6c866a6f5418ead42501475abff1b-bolt.service-YVt5fh/" ".X1024-lock" "config-err-jSZBhv" "tracker-extract-files.1000/" "systemd-private-04d6c866a6f5418ead42501475abff1b-upower.service-f8t1hP/" ".Test-unix/" "config-err-6nQSH7" ".XIM-unix/" "systemd-private-04d6c866a6f5418ead42501475abff1b-colord.service-etHgpR/" "systemd-private-04d6c866a6f5418ead42501475abff1b-ModemManager.service-UHRCmb/" "thunderbird_gautam/" "config-err-z1WNQm" ".com.google.Chrome.KiD3w8/" "babel-MxSdvC/" "../" "systemd-private-04d6c866a6f5418ead42501475abff1b-systemd-timesyncd.service-VRGkdU/" "build-irony-server-1.3.1/")
+
+ ("/tmp/build-irony-server-1.3.1/" (23953 50036 36857 633000) "./" "CMakeFiles/" "Testing/" "CMakeCache.txt" "src/" "DartConfiguration.tcl" "../")
+
+ ("/home/gautam/.emacs.d/" (23953 49036 177438 922000) "session.10cb42aa9b7c214b89156940562973899600000016770088" "session.10631ec7e41d5013e8156710105394918300000015930075" "session.1091afe2e693e32013156891068252619000000022370069" "session.10cfd017a9b9f0a44e156787215777302700000016300072" "recentf~" "config_copy.org~" "session.103912a1061a29e549156946697186474200000016810087" "session.1028ee8918daaf0c0156955004226646100000016360087" "session.1072d4f17719d125d8156965928275025000000017390088" "auto-save-list/" "config.el" "session.102725dfc9fd4a5bf3156811094916449400000015790071" "ido.last" "session.10c1a1e59cf12d235156758870253744900000013680074" "session.10fbdf23b2cdefe634156974267678604500000018300088" "session.107089707edf368b5d156982302824117800000017760088" "themes/" "session.106fdff6afba1142e2156978644052198800000023200090" "session.10427f34474c2c81db156795296351754600000014300101" "config.org~" "session.1017abbea91ee21a77156943364626592100000018790089" "config_copy.org" "url/" "session.10430d8412bbe0019c156787013475493400000014470081" "session.10685293ad4f816e34156829244181016700000014180069" "session.10dab61de2e219523b15682184833081300000027690076" "session.1024938bc291939ef9156812132341359500000015080069" "eshell/" "config.org" "smex-items" "session.1091afe2e693e32013156891246120633700000022370075" "session.105667bb38acfb204915695858152253800000018310087" "session.103a830dcdc2e2a37a156952128966483300000018320092" "session.10e49bbac8a6526439156942578849050500000018080087" "session.1010b7af2dd2f5df13156887624223456300000017540069" "session.10dab61de2e219523b156821755758395100000027690069" "session.10a621951d9b48b5f4156827465323827600000014290068" "transient/" "./" "session.10aa0ce1294568d34c156952163591059500000017330087" "session.1069cd0386a3d80d6615695595411282100000016270087" "elpa/" "ido.last~" "session.10a2327d87fdea9d4a156956797051297100000015330087" "configtemp.org" "session.108786f5323640b035156718290616938200000016790076" "tramp" "session.10f57bea13e8d23c9e156947653131865900000016480087" "session.10e272a15f8ed637c2156899905537115400000017080081" "recentf" "../" "session.1070603a2f562893e7156834238784335000000015920068" "tutorial/" "session.10a19e9ca3ea456dff156826656165488800000016770068" "#ido.last#" "session.101cf1b0ae42e655c1156963944381531600000017310090" "games/" ".git/")
+
+ ("/home/" (23946 21508 134082 37000) ".directory" "gautam/" "./" "lost+found/" "../")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/P3/visitor/" (23952 60975 844933 392000) "vis1.java~" "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguVisitor.java" "GJVoidVisitor.java" "vis1.class" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "vis2.java" "Visitor.java" "DepthFirstVisitor.java" "./" "GJVoidVisitor.class" "vis2.java~" "vis1.java" "Visitor.class" "../" "vis2.class" "GJNoArguVisitor.class")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/P3/" (23952 60983 428873 567000) "jtb132.jar" "P3.java~" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "jtb.out.jj" "MiniJavaParserTokenManager.class" "MiniJavaParser.java" "JTBToolkit.class" "ParseException.class" "minijava.jj" "htest/" "pgi.jar" "P3.class" "P.miniIR" "./" "Token.java" "MiniJavaParser.class" "P3.java" "test/" "MiniJavaParserConstants.java" "P.miniIR~" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "ParseException.java" "../" "TokenMgrError.java" "visitor/" "JavaCharStream.class")
+
+ ("/home/gautam/Desktop/CS3300/" (23952 60989 464825 953000) "CS17B047/" "evaluate.sh" "CS17B047.P3.tar" "./" "CS17B047.P3.tar.gz" "../")
+
+ ("/home/gautam/Desktop/" (23950 44354 308962 806000) "emacs_test/" "temp.c~" "CS17B047/" "evaluate.sh" "temp.c" "emacs_packages/" "codeforces/" "emacs_tutorials/" "./" "CS3500/" "temp" "test/" "../" "CS3300/")
+
+ ("/home/gautam/Desktop/CS3300/CS17B047/" (23950 44377 40130 480000) "./" "P3/" "../")
+
+ ("/home/gautam/Desktop/CS3300/visitor/" (23948 65071 102808 769000) "vis1.java~" "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguVisitor.java" "GJVoidVisitor.java" "vis1.class" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "vis2.java" "Visitor.java" "DepthFirstVisitor.java" "./" "GJVoidVisitor.class" "vis2.java~" "vis1.java" "Visitor.class" "../" "vis2.class" "GJNoArguVisitor.class")
+
+ ("/home/gautam/Desktop/CS3300/test/" (23948 43625 49886 809000) "LL.class" "QuickSort.class" "Factorial.java" "BS.class" "TreeVisitor.class" "BinaryTree.java" "QuickSort.java" "LS.class" "LinearSearch.class" "LinearSearch.java" "BinaryTree.class" "Element.class" "BinarySearch.java~" "BubbleSort.java" "BinarySearch.java" "MyVisitor.class" "BinarySearch.class" "TreeVisitor.java" "Factorial.class" "BubbleSort.class" "./" "QS.class" "Fac.class" "TV.class" "TreeVisitor.java~" "BBS.class" "List.class" "LinkedList.java" "Visitor.class" "../" "Tree.class" "LinkedList.class" "BT.class")
+
+ ("/home/gautam/Desktop/CS3500/labvm/" (23939 46153 741681 342000) "time.csv" "one.c~" "./" "one" "one.c" "../")
+
+ ("/home/gautam/PRML/" (23940 65358 603726 37000) "PRML/" "Miniconda3-latest-Linux-x86_64.sh" "./" "PRML.zip" "../")
 
  ("/home/gautam/Desktop/CS3500/" (23939 27342 258032 58000) "lab5/" "ipc/" "CS17B047/" "lab4_tut/" "zombie_orphan/" "process/" "./" "labvm/" "../" "CS17B047.tar.xz")
-
- ("/home/gautam/Desktop/" (23939 43028 94716 20000) "emacs_test/" "temp.c~" "CS17B047/" "evaluate.sh" "temp.c" "emacs_packages/" "codeforces/" "emacs_tutorials/" "./" "CS3500/" "temp" "test/" "../" "CS3300/")
-
- ("/home/gautam/" (23939 43130 282135 650000) "emacs_tutorial/" ".swt/" ".ipython/" "hello.txt" "#helloworld#" "*Messages*~" ".nv/" "eclipse/" ".ICEauthority" "Documents/" "examples.desktop" ".sudo_as_admin_successful" "cs3100_f19/" ".emacs" "emacs-config/" "google-chrome-stable_current_amd64.deb" "snap/" "init.el" "PRML/" "javacc-5.0/" ".gnupg/" "out.txt" ".bash_history" "temp.c" ".mozilla/" ".newsrc-dribble" ".gitconfig" "test.org~" ".pki/" "Templates/" ".bash_logout" ".tooling/" "TUTORIAL~" "Pictures/" "eclim_2.8.0.bin" ".bashrc~" ".ssh/" "*Messages*" "Videos/" ".thunderbird/" "emacs_config/" ".dbus/" ".p2/" "News/" "Downloads/" "eclipse-workspace/" ".emacs.d/" "emacs_config.tar.xz" "TUTORIAL" ".bashrc" "./" "Public/" ".emacs~" ".config/" ".eclipse/" "temp" "output.svg" "Desktop/" ".cache/" "Music/" "firstgit/" ".lesshst" ".local/" "wc" "../" "test.org" ".profile" ".git/")
-
- ("/home/gautam/Desktop/CS3300/" (23935 11070 303999 278000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "CS17B047/" "jtb.out.jj" "MiniJavaParserTokenManager.class" "Main.class" "evaluate.sh" "MiniJavaParser.java" "JTBToolkit.class" "assignment1/" "ParseException.class" "minijava.jj" "ChecklistP2.txt" "Main.java" "./" "Token.java" "MiniJavaParser.class" "Public/" "CS17B047.P2  (copy).tar.gz" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "CS17B047.P2.tar.gz" "ParseException.java" "../" "tests/" "TokenMgrError.java" "visitor/" "JavaCharStream.class" ".git/")
 
  ("/home/gautam/Desktop/CS3300/CS17B047/P2/visitor/" (23934 26395 560387 64000) "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguVisitor.java" "type.class" "GJVoidVisitor.java" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "#labScope2.java#" "Visitor.java" "type.java" "DepthFirstVisitor.java" "./" "GJDepthFirst.class" "labScope2.java~" "type.java~" "GJVoidVisitor.class" "Visitor.class" "../" "labScope2.class" "GJNoArguVisitor.class" "labScope2.java" "#GJVisitor.java#")
 
@@ -90,13 +126,9 @@
 
  ("/home/gautam/Desktop/CS3500/schedule/lab6_first/" (23930 20965 391 685000) "*shell*" "input.txt" "input.txt~" "child.c~" "s.c" "child.c" "test.c" "test.c~" "child" "./" "test" "s.c~" "Makefile" "s" "../")
 
- ("/home/gautam/Desktop/CS3300/CS17B047/" (23927 31844 409466 846000) "./" "P2/" "../")
-
  ("/home/gautam/Desktop/CS3300/P2/" (23927 1312 199999 406000) "jtb132.jar" "MiniJavaParserConstants.class" "MiniJavaParserTokenManager.java" "Token.class" "jtb.out.jj" "MiniJavaParserTokenManager.class" "Main.class" "MiniJavaParser.java" "JTBToolkit.class" "ParseException.class" "minijava.jj" "Main.java" "./" "Token.java" "MiniJavaParser.class" "MiniJavaParserConstants.java" "MiniJavaParser$JJCalls.class" "TokenMgrError.class" "MiniJavaParser$LookaheadSuccess.class" "syntaxtree/" "JavaCharStream.java" "ParseException.java" "../" "TokenMgrError.java" "visitor/" "JavaCharStream.class")
 
  ("/home/gautam/Desktop/CS3300/Public/Tests/" (23926 23405 124385 617000) "Public5.java" "A.class" "Class2.class" "Public7.java" "Class1.class" "TreeVisitor.class" "Public2.java" "Public9.java~" "Public9.java" "Public1.java" "MyVisitor.class" "Public10.java" "Public3.java" "Public6.java" "BubbleSort.class" "./" "TV.class" "Extended.class" "Class3.class" "Public8.java" "Visitor.class" "../" "Tree.class" "Public4.java")
-
- ("/home/gautam/Desktop/CS3300/visitor/" (23926 23179 475531 550000) "GJDepthFirst.java" "GJVisitor.class" "GJVisitor.java" "GJNoArguVisitor.java" "type.class" "GJVoidVisitor.java" "GJNoArguDepthFirst.java" "GJVoidDepthFirst.java" "#labScope2.java#" "Visitor.java" "type.java" "DepthFirstVisitor.java" "./" "GJDepthFirst.class" "labScope2.java~" "type.java~" "GJVoidVisitor.class" "Visitor.class" "../" "labScope2.class" "GJNoArguVisitor.class" "labScope2.java" "#GJVisitor.java#")
 
  ("/home/gautam/Desktop/CS3300/Public/" (23926 13982 0 0) "Outputs/" "Tests/" "./" "../")
 
@@ -113,8 +145,6 @@
  ("/home/gautam/Desktop/codeforces/" (23921 55119 803996 447000) "./" "a.cpp~" "a.out" "a.cpp" "../")
 
  ("/home/gautam/Desktop/emacs_test/" (23923 52366 355419 363000) "a.org~" "a.c" "a.c~" "./" "a" "#a.org#" "a.org" "../")
-
- ("/home/" (23893 18540 413212 88000) "gautam/" "./" "lost+found/" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----
